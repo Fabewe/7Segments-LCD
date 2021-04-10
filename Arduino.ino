@@ -29,7 +29,7 @@ const byte numeros[10] = {  //Vector de bytes con números [0-9] (con ésto cons
                 0b11100110, //9
                 };
 int i = 0;                  //Esta variable controlará la posición en el vector
-int j= 0,k= 0;              //Estas variables controlarán la posición del cursosr en la pantalla LCD resultará similar a movernos entre los elementos de una matriz.
+int j= 0,k= 0;              //Estas variables controlarán la posición del cursor en la pantalla LCD resultará similar a movernos entre los elementos de una matriz.
 bool borrar= false;         //Esta variable la usaremos como FLAG para saber cuando queremos borrar todo en la pantalla LCD, en nuestro caso cuando esté totalmente escrita.
 LiquidCrystal lcd(rs,en,d4,d5,d6,d7);  //Incializamos un objeto "LiquidCrystal" el cual será nuestra pantalla. Usaremos el constructor que tiene como parámtreos [RS,EN,D4,D5,D6,D7],aunque según la necesidad tiene varios más. 
 
@@ -118,5 +118,4 @@ void EscribirDigito(byte numer){                 //=============================
                                                  // El fin de la función EscribirDigito() es satisfacer el orden en el que funciona el resgistro de desplazamiento para dar 8  //
                                                  // salidas de una sola entrada(1 byte->8 bits). Cronograma explicativo:                                                       //
                                                  // Cronograma explicativo: https://programarfacil.com/wp-content/uploads/2016/02/Cronograma74HC595.jpg                        //
-                                                 //============================================================================================================================//
-                                                                                                                                                                //~@FabEwe57204//
+                                                 //===================================================s=========================================================================//
